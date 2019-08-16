@@ -9,5 +9,9 @@ class Point {
     println "xxxx teste"
   }
 
+  def call2(imprimir) {
+    echo "Hello5"
+  }
+
   float x,y,z
 }
