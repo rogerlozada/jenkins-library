@@ -1,5 +1,5 @@
 
-def call(String name = 'human') {
-  echo "Hello, ${name}."
+def call2(String name = 'human') {
+  echo "Hello5, ${name}."
 }
 
