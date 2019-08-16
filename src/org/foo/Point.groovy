@@ -4,13 +4,9 @@ package org.foo
 // point in 3D space
 class Point {
 
-  def imprimir()
+  String imprimir()
   {
-    sh "echo 'Hello20'"
-  }
-
-  def call2(imprimir) {
-    sh "echo 'Hello20'"
+    return "echo 'Hello20'"
   }
 
   float x,y,z
