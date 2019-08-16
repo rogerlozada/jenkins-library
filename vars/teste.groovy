@@ -8,9 +8,4 @@ def call3(String name = 'human') {
 }
 
 
-class DiaDeSemana {
-  DiaDeSemana(String _name){
-    this.name = _name;
-  }
-  String name; 
-}
+
