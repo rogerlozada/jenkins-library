@@ -6,7 +6,7 @@ class Point {
 
   def imprimir()
   {
-    println "xxxx teste"
+    sh "echo 'Hello20'"
   }
 
   def call2(imprimir) {
