@@ -1,13 +1,8 @@
 package org.foo
-
 class Utilities implements Serializable {
-  def env
-  Utilities(env) {
-    this.env = env
-  }
-
-  public print()
-  {
-      println this.env
+  def steps
+  Utilities(steps) {this.steps = steps}
+  def mvn(args) {
+    steps.sh "${steps.tool 'Maven'}/bin/mvn -o ${args}"
   }
 }
