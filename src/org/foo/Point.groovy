@@ -6,7 +6,7 @@ class Point {
 
   def imprimir()
   {
-    echo "teste"
+    println "xxxx teste"
   }
 
   float x,y,z
