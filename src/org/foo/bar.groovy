@@ -1,4 +1,4 @@
-package org.demo
+package org.foo
 
 class Utilities implements Serializable {
   def env
