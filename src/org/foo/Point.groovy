@@ -10,7 +10,7 @@ class Point {
   }
 
   def call2(imprimir) {
-    echo "Hello20"
+    sh "echo 'Hello20'"
   }
 
   float x,y,z
